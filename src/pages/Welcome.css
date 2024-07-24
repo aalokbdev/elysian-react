@@ -1,0 +1,48 @@
+.login-welcome-container {
+    width: calc(100% - 486px);
+    align-items: center;
+    color: white;
+    padding: 50px;
+    background-color: #3949ab;
+    border-radius: 20px 0px 0px 20px;
+  }
+  
+  .login-welcome-header img {
+    height: 50px;
+    width: 50px;
+  }
+  
+  .welcome-image {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .welcome-image img {
+    height: 357px;
+    width: 357px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .welcome-text {
+    text-align: center;
+  }
+  
+  .welcome-text h1 {
+    font-size: 24px;
+    line-height: 48px;
+    font-weight: 600;
+  }
+  
+  .welcome-text p {
+    font-size: 14px;
+    line-height: 28px;
+  }
+  
+  @media (max-width: 768px) {
+    .login-welcome-container {
+      display: none;
+    }
+  }
+  
